@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+header{
+    background-color: #6568ff;
+    padding: 30px ;
+    text-align: center;
+}
+header h1{
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: white;
+}
+header nav ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+header nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+main .Hero img{
+    width: 70%;
+    align-items: left;
+}
+main .Hero .right{
+    background-color: white;
+    padding: 30px ;
+    text-align: right;
+}
+main .Hero .container{
+    width: 100%;
+    max-width: 700px;
+    margin: 0 auto;
+    display: flex;
+}
+main .child1{
+    flex-grow: 1;
+}
+main .child2{
+    flex-grow: 2;
+}
+main .Link{
+    background-color: rgb(255, 197, 120);
+    padding: 30px ;
+    text-align: center;
+}
+main .Achievements{
+    background-color: rgb(120, 242, 255);
+    padding: 30px ;
+    text-align: center;
+}
+table{
+    margin:0 auto;
+}
+table td a{
+    padding: 15px 20px;
+    text-decoration: none;
+}
+table .Title{
+    color: white;
+    background-color: black;
+    border: 5px solid rgba(0, 0, 0, 0);
+    border-radius: 50px;
+}
+aside{
+    padding: 30px;
+    text-align: center;
+    background-color: #b7eeff;
+}
+aside p{
+    margin: 5px;
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+}
+aside figure img{
+    width: 150px;
+}
+.btn{
+    background-color: rgb(0, 0, 0);
+    display: inline-block;
+    padding: 10px;
+    border: 5px solid rgba(0, 0, 0, 0);
+    border-radius: 50px;
+    text-decoration: none;
+    color:white;
+}
+.btn:hover{
+    background-color: rgb(205, 198, 255);
+    color:rgb(29, 0, 74)
+}
